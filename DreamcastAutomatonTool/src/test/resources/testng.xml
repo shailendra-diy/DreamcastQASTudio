@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="DreamcastAutomation Suite" verbose="1" parallel="tests" thread-count="3">
+
+    <listeners>
+        <listener class-name="com.dreamcast.automation.listeners.TestListener"/>
+    </listeners>
+
+    <test name="Dreamcast Login Tests">
+        <classes>
+            <class name="com.dreamcast.automation.tests.dreamcast.LoginTest"/>
+        </classes>
+    </test>
+
+    <test name="Flipkart Tests">
+        <classes>
+            <class name="com.dreamcast.automation.tests.flipkart.FlipkartTest"/>
+        </classes>
+    </test>
+
+    <test name="XPath Validation Tests">
+        <classes>
+            <class name="com.dreamcast.automation.tests.xpathlogic.XpathValidationTest"/>
+        </classes>
+    </test>
+
+</suite>
