@@ -1,18 +1,19 @@
 package com.selenium.studio;
 
+import com.selenium.studio.server.StudioServer;
+
 /**
- * ╔══════════════════════════════════════════════════════════════╗
- * ║         SELENIUM AUTOMATION STUDIO - v2.0                   ║
- * ║  Run this class → browser opens → build & run tests visually║
- * ╠══════════════════════════════════════════════════════════════╣
- * ║  HOW TO RUN IN ECLIPSE:                                      ║
- * ║  1. Right-click project → Maven → Update Project             ║
- * ║  2. Right-click SeleniumStudioV2.java → Run As → Java App    ║
- * ║  3. Browser opens at http://localhost:8769                   ║
- * ╚══════════════════════════════════════════════════════════════╝
+ * Entry point for Selenium Automation Studio v2.0.
+ *
+ * HOW TO RUN:
+ *   mvn package
+ *   java -jar target/selenium-studio-2.0.jar
+ *   Then open http://localhost:8769
+ *
+ * Or run this class directly from Eclipse as a Java Application.
  */
 public class Main {
     public static void main(String[] args) throws Exception {
-        SeleniumStudioV2.main(args);
+        StudioServer.main(args);
     }
 }

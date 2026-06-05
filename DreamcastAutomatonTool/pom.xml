@@ -3,13 +3,12 @@
   xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
 
-  <groupId>DreamcastAutomatonTool</groupId>
-  <artifactId>DreamcastAutomatonTool</artifactId>
-  <version>0.0.1-SNAPSHOT</version>
+  <groupId>com.dreamcast</groupId>
+  <artifactId>dreamcast-automation-tool</artifactId>
+  <version>1.0.0</version>
 
-  <name>DreamcastAutomatonTool</name>
-  <!-- FIXME change it to the project's website -->
-  <url>http://www.example.com</url>
+  <name>Dreamcast Automation Tool</name>
+  <description>Selenium-based UI test automation framework with Swing builder</description>
 
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
