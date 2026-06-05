@@ -1,0 +1,12 @@
+﻿target/
+*.class
+*.jar
+*.war
+.classpath
+.project
+.settings/
+*.metadata/
+.metadata/
+screenshots/
+data/results/
+data/scraped/
